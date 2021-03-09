@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+<head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>The simple coding Kata</h1>
+    </div>
+    <div class="container">
+        <h2>Last time...</h2>
+        <p>Your numbers were:</p>
+        <ul>
+            {{#inputs}}
+                <li>{{.}}</li>
+            {{/inputs}}
+        </ul>
+        <p>The sum of them was {{sum}}</p>
+
+
+        <h2>Try some more</h2>
+        <p>Input {{numbers}} numbers</p>
+
+        <form method="POST" action="index.php">
+            <ul>
+                {{#newinputs}}
+                    <li>
+                        <input type="number" name="numberinput[]"/>
+                    </li>
+                {{/newinputs}}
+            </ul>
+            <input type="Submit"/>
+        </form>
+    </div>
+</body>

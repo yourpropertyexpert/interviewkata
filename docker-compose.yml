@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  kata:
+    build: ./setup
+    env_file:
+    - ./web-variables.env
+    container_name: web-kata
+    volumes:
+      - ./src/:/var/www/html/
+    ports:
+      - "80:80"
+    stdin_open: true
+    tty: true
