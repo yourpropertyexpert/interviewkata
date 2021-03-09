@@ -1,4 +1,4 @@
-# Your challenge...
+# Your challenges...
 
 1: [Diagnostic] Work out under what circumstances this goes wrong
 
@@ -8,4 +8,9 @@
 
 4: [More complex functionality] Show the biggest of the three numbers
 
-5: [Refactorisation] Move the calculations into a class
+5: [Refactorisation within PHP] Move the calculations into a class
+
+6: [Wider Refactorisation] Dynamically add additional inputs (starting with one)
+
+
+DON'T PANIC: No-one has ever completed all of these in the interview :-)
