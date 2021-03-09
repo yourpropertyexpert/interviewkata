@@ -10,7 +10,7 @@
 
 5: [Refactorisation within PHP] Move the calculations into a class
 
-6: [Wider Refactorisation] Dynamically add additional inputs (starting with one)
+6: [Wider Refactorisation] Dynamically add additional inputs (starting with just one). The calculations should still be done server-side.
 
 
 DON'T PANIC: No-one has ever completed all of these in the interview :-)
